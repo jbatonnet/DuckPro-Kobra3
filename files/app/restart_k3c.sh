@@ -37,3 +37,5 @@ mount --bind /useremain/home/ytka/printer_data/gcodes /useremain/app/gk/gcodes/
 # Bind 'config' directory into our config
 mount --bind /userdata/app/gk/config /useremain/home/ytka/printer_data/config/anycubic_config
 
+# Keep local time in sync
+/useremain/home/ytka/ntpclient.sh &

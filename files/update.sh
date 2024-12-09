@@ -104,6 +104,8 @@ cp -fd ${update_file_path}/home/ytka/nginx.sh /useremain/home/ytka/nginx.sh
 chmod +x /useremain/home/ytka/nginx.sh
 cp -fd ${update_file_path}/home/ytka/mjpg_streamer.sh /useremain/home/ytka/mjpg_streamer.sh
 chmod +x /useremain/home/ytka/mjpg_streamer.sh
+cp -fd ${update_file_path}/home/ytka/ntpclient.sh /useremain/home/ytka/ntpclient.sh
+chmod +x /useremain/home/ytka/ntpclient.sh
 echo "Service files updated" >> /tmp/update-log.txt
 
 cp -rfd ${update_file_path}/app/Translate ${to_update_path}
