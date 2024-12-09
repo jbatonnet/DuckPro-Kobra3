@@ -1,3 +1,5 @@
+export LD_LIBRARY_PATH=/useremain/dist/mjpg_streamer:$LD_LIBRARY_PATH
+
 if [ -e /useremain/home/ytka/printer_data/config/.camera ]; then
     if [ -e /dev/video10 ]; then
         killall gkcam
